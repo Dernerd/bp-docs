@@ -172,7 +172,7 @@ class BP_Docs_Admin {
 		?>
 		<label for="bp-docs-excerpt-length" class="screen-reader-text"><?php _e( "Ändere den Wert für längere oder kürzere Auszüge.", 'bp-docs' ) ?></label>
 		<input name="bp-docs-excerpt-length" id="bp-docs-excerpt-length" type="text" value="<?php echo esc_html( $length ) ?>" />
-		<p class="description"><?php _e( "Auszüge werden in Docs-Verzeichnissen angezeigt, um einen besseren Kontext zu bieten. Wenn Dein Theme oder Deinr Sprache längere oder kürzere Auszüge erfordert, ändere diesen Wert. Stelle <code>0</code> ein, um diese Auszüge zu deaktivieren.", 'bp-docs' ) ?></p>
+		<p class="description"><?php _e( "Auszüge werden in Docs-Verzeichnissen angezeigt, um einen besseren Kontext zu bieten. Wenn Dein Theme oder Deine Sprache längere oder kürzere Auszüge erfordert, ändere diesen Wert. Stelle <code>0</code> ein, um diese Auszüge zu deaktivieren.", 'bp-docs' ) ?></p>
 
 		<?php
 	}
@@ -183,7 +183,7 @@ class BP_Docs_Admin {
 		?>
 		<label for="bp-docs-directory-title" class="screen-reader-text"><?php _e( "Ändere den Titel des Hauptverzeichnisses \"Dokumente\".", 'bp-docs' ) ?></label>
 		<input name="bp-docs-directory-title" id="bp-docs-directory-title" type="text" value="<?php echo $label; ?>" />
-		<p class="description"><?php _e( "Ändere den Titel des Dokumenten-Hauptverzeichnisses von \"Dokumentenverzeichnis\" in \"Dokumentenverzeichnis\"&rsquo;d like.", 'bp-docs' ) ?></p>
+		<p class="description"><?php _e( "Ändere den Titel des Dokumenten-Hauptverzeichnisses von \"Dokumentenverzeichnis\" in \"Meine Dokumente\" oder was Du möchtest.", 'bp-docs' ) ?></p>
 
 		<?php
 	}
