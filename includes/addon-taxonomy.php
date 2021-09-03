@@ -83,7 +83,7 @@ class BP_Docs_Taxonomy {
 
 		// Define the labels to be used by the taxonomy bp_docs_tag
 		$doc_tags_labels = array(
-			'name' 		=> __( 'Doumente Tags', 'bp-docs' ),
+			'name' 		=> __( 'Dokumente Tags', 'bp-docs' ),
 			'singular_name' => __( 'Dokument Tag', 'bp-docs' )
 		);
 
