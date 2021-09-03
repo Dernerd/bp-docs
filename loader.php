@@ -3,7 +3,7 @@
 Plugin Name: BP Kollaborative Docs
 Plugin URI: http://github.com/boonebgorges/bp-docs
 Description: BuddyPress Docs Psource-Edition, fügt BuddyPress kollaborative Dokumente hinzu, behebt alle Probleme welche BuddyPress Docs mit Deutschen Übersetzungsfiles immer hatte.
-Version: 2.6.4
+Version: 2.6.5
 Author: DerN3rd
 Author URI: https://n3rds.work
 Text Domain: bp-docs
@@ -20,7 +20,7 @@ $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__, 
 	'bp-docs' 
 );
-define( 'BP_DOCS_VERSION', '2.6.4' );
+define( 'BP_DOCS_VERSION', '2.6.5' );
 
 /*
  * BP Dokumente introduces a lot of overhead. Unless otherwise specified,
